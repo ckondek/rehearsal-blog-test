@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f5ef"><title>Rehearsal Blog Test</title><style>
+:root { --ink:#252521; --muted:#77766f; --line:#deddd5; --paper:#fffefa; --accent:#8b3b2d; }
+* { box-sizing:border-box; }
+body { margin:0; background:#fffefa; color:var(--ink); font-family:Georgia,"Times New Roman",serif; }
+.site-header { max-width:1200px; margin:0 auto; padding:34px 28px 24px; border-bottom:1px solid var(--line); }
+.kicker { font:11px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin-bottom:10px; }
+.site-title { font-size:clamp(30px,4vw,48px); line-height:1.06; letter-spacing:-.035em; font-weight:400; margin:0; }
+.site-subtitle { color:var(--muted); font:12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; margin-top:12px; }
+main { max-width:1200px; margin:0 auto; padding:12px 28px 80px; }
+h2 { font:600 11px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); margin:3.2rem 0 1rem; padding-top:12px; }
+h3 { font-size:clamp(16px,1.6vw,18px); line-height:1.65; font-weight:400; margin:.75rem 0; max-width:72ch; }
+h3 strong { font-weight:600; }
+h4 { font:11px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:.015em; color:var(--muted); margin:.55rem 0 1.25rem; }
+.flex-container { display:flex; flex-wrap:wrap; align-items:flex-start; gap:12px; margin:1.35rem 0 2.4rem; }
+.media-item { box-sizing:border-box; min-width:0; }
+.media-item img,.media-item video { display:block; max-width:100%; height:auto; }
+.media-item { flex:0 0 calc((100% - 24px)/3); }
+.media-item:only-child { flex-basis:min(600px,100%); }
+.flex-container:has(> .media-item:nth-child(2):last-child) > .media-item { flex-basis:calc((100% - 12px)/2); }
+.media-item.full,.media-item.large { flex-basis:100%; }
+.media-item.half,.media-item.two { flex-basis:calc((100% - 12px)/2); }
+.media-item.middle { flex-basis:min(75%,1000px); }
+.media-item.w600 { flex-basis:min(600px,100%); }
+.media-item.smallgallery { flex-basis:calc((100% - 36px)/4); }
+.media-item.eight { flex-basis:calc((100% - 84px)/8); }
+.media-item img, main img { cursor:zoom-in; }
+main img[role=button] { outline-offset:3px; }
+.lightbox { position:fixed; inset:0; z-index:9999; display:none; align-items:center; justify-content:center; padding:4vh 4vw; background:rgba(15,15,14,.94); }
+.lightbox.open { display:flex; }
+.lightbox img { max-width:92vw; max-height:92vh; object-fit:contain; cursor:zoom-out; }
+.lightbox-close { position:absolute; top:14px; right:18px; width:42px; height:42px; border:0; border-radius:50%; background:#fffefa; color:#252521; font-size:28px; cursor:pointer; }
+@media(max-width:700px) { .site-header { padding:24px 18px 18px; } main { padding:8px 18px 48px; } .media-item:not(.full):not(.large):not(.smallgallery) { flex-basis:calc((100% - 12px)/2); } .media-item.smallgallery { flex-basis:calc((100% - 24px)/3); } h2 { margin-top:2.5rem; } }
+</style></head><body><header class="site-header"><div class="kicker">Rehearsal notebook</div><h1 class="site-title">Rehearsal Blog Test</h1><div class="site-subtitle">A chronological working document · notes, images and moving images</div></header><main>
+<h2>20 October 2026</h2>
+<h3><strong>lets try again</strong></h3>
+<h3>ok, now we are starting again with a new entry -into an old repo.</h3>
+<div class="flex-container">
+<div class="media-item medium"><img class="medium" src="./media/forKatrin.png" alt="birthday greetings." loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+<h4>birthday greetings.</h4>
+</div>
+</div>
+<div class="flex-container">
+<div class="media-item middle"><img class="middle" src="./media/Girls8.png" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+</div>
+<h3>those are some friends of mine,  this is what I am doing at the gallery</h3>
+<div class="flex-container">
+<div class="media-item eight"><img class="eight" src="./media/20250923_120315.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/newstuff2.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/newStuff.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/t1.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/20250923_115307.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/20250923_115313.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/20250923_120254.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item eight"><img class="eight" src="./media/20250923_120305.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item two"><img class="two" src="./media/20250923_120311.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+<div class="media-item two"><img class="two" src="./media/20250923_120312.jpg" alt="" loading="lazy" tabindex="0" role="button" aria-label="Open full-size image">
+</div>
+</div>
+<h3>now that is a nice arrangment.</h3>
+</main><div id="imageLightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Full-size image"><button type="button" id="closeLightbox" class="lightbox-close" aria-label="Close image">×</button><img id="lightboxImage" alt=""></div><script>
+(function(){
+  const box=document.getElementById('imageLightbox');
+  const large=document.getElementById('lightboxImage');
+  const close=document.getElementById('closeLightbox');
+  if(!box||!large||!close) return;
+  function hide(){box.classList.remove('open');large.removeAttribute('src');document.body.style.overflow='';}
+  function show(img){
+    const source=img.currentSrc||img.src||img.getAttribute('src');
+    if(!source) return;
+    large.alt=img.alt||'';
+    large.src=source;
+    box.classList.add('open');
+    document.body.style.overflow='hidden';
+    close.focus();
+  }
+  // Public hook makes it easy to diagnose the published version in DevTools.
+  window.openLightbox=function(imageOrUrl){
+    if(typeof imageOrUrl==='string'){large.src=imageOrUrl;large.alt='';box.classList.add('open');document.body.style.overflow='hidden';close.focus();}
+    else if(imageOrUrl) show(imageOrUrl);
+  };
+  // Delegation also supports older pages whose images use classes such as .narrow.
+  document.addEventListener('click',function(e){
+    const img=e.target.closest('main img');
+    if(img && img.id!=='lightboxImage'){e.preventDefault();show(img);}
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape') hide();
+    if((e.key==='Enter'||e.key===' ') && e.target.matches('main img')){e.preventDefault();show(e.target);}
+  });
+  close.addEventListener('click',hide);
+  box.addEventListener('click',e=>{if(e.target===box)hide();});
+})();
+</script></body></html>
